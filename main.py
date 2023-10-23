@@ -12,3 +12,8 @@ for num in data:
     if (num.isdigit()):
         numbers += 1
 print (f"The number of digits is {numbers}")
+
+output = open("outputs.txt", "w")
+output.write("The number of letters is 486")
+output.write ("the number of digits is 1")
+output.close
